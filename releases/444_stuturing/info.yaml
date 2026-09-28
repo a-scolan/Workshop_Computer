@@ -1,0 +1,23 @@
+draft: false
+Name: Stuturing
+short-description: Clock-quantized Turing beat-slicer with slice-aligned ADPCM and granular stretch
+summary: >-
+  Stuturing combines a clock-quantized variable window recorder (up to 8s using 4-bit IMA-ADPCM in SRAM),
+  a deterministic Music Thing Turing Machine shift register, and a multi-effects slicer engine.
+  Main knob navigates 8 filtered combo zones of Shuffle, Repeat and Timestretch; Knob X controls Turing
+  mutation probabilities (with CV In 2 modulation); Knob Y controls ratchet divisions.
+Language: C++ (RP2040 Pico SDK)
+Creator: Alexis
+Version: "1.0.0"
+Status: Released
+License: MIT
+date-created: 2026-09-28
+date-updated: 2026-09-28
+tags:
+  - glitch
+  - stutter
+  - turing
+  - granular
+  - sampler
+  - clocked
+  - adpcm
